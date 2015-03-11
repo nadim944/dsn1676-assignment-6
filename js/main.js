@@ -11,3 +11,11 @@ var $diamond = $('.diamond');
 $move.on('click', function () {
     $diamond.toggleClass('move');
 })
+
+var $collapse = $('.btn-collapse-expand');
+var $panel = $('.panel');
+
+$collapse.on('click', function () {
+    $panel.toggleClass('collapse');
+})
+
