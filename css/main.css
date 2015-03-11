@@ -31,8 +31,14 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 200px;
-
+  transition: all 200ms linear;
   background-color: limegreen;
+    opacity: 0;
+}
+
+.js-box {
+    opacity: 1;
+
 }
 
 .diamond {
