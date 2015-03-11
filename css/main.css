@@ -95,6 +95,43 @@ transition: all 200ms linear;
   border-radius: 50%;
 }
 
+.bounce {
+    -webkit-animation: bounce 600ms linear; 
+    animation: bounce 600ms linear; 
+
+}
+
+@keyframes bounce {
+    
+    0% {
+        transform: translate(0px, 0px);
+    }
+    
+    20% {
+        transform: translate(-50px, -20px);
+    }
+  
+    40% {
+        transform: translate(-100px, 20px);
+    }
+      
+    60% {
+        transform: translate(-150px, -20px);
+    }
+      
+    80% {
+        transform: translate(-200px, 20px);
+    }
+      
+    100% {
+        transform: translate(-250px, -20px);
+    }
+}
+
+
+
+
+
 .list {
   bottom: 1em;
   margin: 0;

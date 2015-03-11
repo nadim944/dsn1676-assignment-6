@@ -19,3 +19,9 @@ $collapse.on('click', function () {
     $panel.toggleClass('collapse');
 })
 
+var $bounce = $('.btn-bounce');
+var $circle = $('.circle');
+
+$bounce.on('click', function () {
+    $circle.toggleClass('bounce');
+})
