@@ -46,9 +46,20 @@ div {
   right: 2em;
   top: calc(50% - 40px);
   width: 80px;
-
   background-color: hotpink;
   transform: rotate(45deg);
+    transition: all 200ms linear;
+}
+
+.move {
+    right: -100px;
+
+}
+
+.no-show {
+    overflow:hidden;
+    
+
 }
 
 .panel {
