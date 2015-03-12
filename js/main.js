@@ -34,5 +34,4 @@ $btnAppend.on('click', function () {
      
     $list.prepend($li);
     $li.toggleClass('list-animation');
-
 });

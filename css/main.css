@@ -1,38 +1,36 @@
 html {
-  background-color: #e2e2e2;
+    background-color: #e2e2e2;
 }
 
 body {
-  margin: 2em auto;
-  max-width: 35em;
-
-  background-color: #fff;
-  border: 1px solid #ccc;
+    margin: 2em auto;
+    max-width: 35em;
+    background-color: #fff;
+    border: 1px solid #ccc;
 }
 
 section {
-  padding: 4em 1em;
-  position: relative;
-
-  border-bottom: 1px solid #ccc;
+    padding: 4em 1em;
+    position: relative;
+    border-bottom: 1px solid #ccc;
 }
 
 section:nth-child(5) {
-  border: 0;
+    border: 0;
 }
 
 div {
-  position: absolute;
-  right: 1em;
-  top: 0;
+    position: absolute;
+    right: 1em;
+    top: 0;
 }
 
 .box {
-  height: 100px;
-  top: calc(50% - 50px);
-  width: 200px;
-  transition: all 200ms linear;
-  background-color: limegreen;
+    height: 100px;
+    top: calc(50% - 50px);
+    width: 200px;
+    transition: all 200ms linear;
+    background-color: limegreen;
     opacity: 0;
 }
 
@@ -42,12 +40,12 @@ div {
 }
 
 .diamond {
-  height: 80px;
-  right: 2em;
-  top: calc(50% - 40px);
-  width: 80px;
-  background-color: hotpink;
-  transform: rotate(45deg);
+    height: 80px;
+    right: 2em;
+    top: calc(50% - 40px);
+    width: 80px;
+    background-color: hotpink;
+    transform: rotate(45deg);
     transition: all 200ms linear;
 }
 
@@ -75,8 +73,8 @@ div {
 }
 
 .panel h2 {
-  margin: 0;
-  padding: 3rem 0;
+    margin: 0;
+    padding: 3rem 0;
 }
 
 .collapse {
@@ -86,12 +84,11 @@ div {
 }
 
 .circle {
-  height: 100px;
-  top: calc(50% - 50px);
-  width: 100px;
-
-  background-color: orange;
-  border-radius: 50%;
+    height: 100px;
+    top: calc(50% - 50px);
+    width: 100px;
+    background-color: orange;
+    border-radius: 50%;
 }
 
 .bounce {
@@ -155,35 +152,31 @@ div {
     }
 }
 
-
 .list {
-  bottom: 1em;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  width: 250px;
-
-  border: 1px solid #ccc;
-  overflow: hidden;
-  overflow-y: auto;
+    bottom: 1em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: 250px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .list li {
-  padding: 0.5em;
-  max-height: 0;
+    padding: 0.5em;
+    max-height: 0;
     overflow: hidden;
-  background-color: plum;
-  border: 1px solid mediumpurple;
-
-  color: mediumpurple;
+    background-color: plum;
+    border: 1px solid mediumpurple;
+    color: mediumpurple;
 }
 
 .list-animation {
     -webkit-animation: addlist 200ms linear forwards;
     animation: addlist 200ms linear forwards;
-
 }
 
 @keyframes addlist {
